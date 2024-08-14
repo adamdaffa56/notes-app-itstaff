@@ -32,7 +32,7 @@ npm install
 
 ### 3. Set Up Environment Variables
 
-Create a .env file in the root directory of the project and add the following environment variables:
+Create a `.env` file in the root directory of the project and add the following environment variables:
 ```
 DATABASE_URL="postgresql://<user-db>:<db-password>@localhost:5432/<db-name>?schema=public"
 ```
