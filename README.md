@@ -39,10 +39,10 @@ DATABASE_URL="postgresql://<user-db>:<db-password>@localhost:5432/<db-name>?sche
 
 ### 4. Set Up Prisma and Seed the Database
 
-Turn on your PostgreSQL. Do a migration to your Database and Seed them:
+Turn on your PostgreSQL. Do a migration to your Database :
 
 ```
-npx prisma migrate dev  # Apply migrations to the database
+npx prisma migrate dev        # Apply migrations to the database
 ```
 
 ### 5. Start the Development Server
